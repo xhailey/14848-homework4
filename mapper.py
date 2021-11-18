@@ -13,6 +13,6 @@ for line in sys.stdin:
         continue
 
   if temperature == 9999 or quality == 0 or quality == 1 or quality == 4 or quality = 5 or quality = 9:
-    return
+    continue
 
   print ('%s\t%d' % (yearMonthDay, temperature))
